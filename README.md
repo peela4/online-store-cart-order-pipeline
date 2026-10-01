@@ -15,3 +15,10 @@ void displayproduct(){
 system.out.println(id+"."+name+"."+price);
 }
 }
+class cart {
+ ArrayList<Product>Product = new ArrayList<>();
+ void addproduct(Product p) {
+ products add (p);
+ System.out.println("Product added to cart")
+ }
+ 
